@@ -87,3 +87,7 @@ button{
     cursor: pointer;
     transition: background-color 0.3 ease;
 }
+
+button:hover{
+    background-color: #3882f6;
+}
