@@ -1,37 +1,33 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
 }
 
-.header,
-.footer{
-    background-color: #1f2937;
-}
 
 .header{
+    background-color: #1f2937;
     display: flex;
-    padding: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .logo{
     color: white;
     font-weight: 950;
     font-size: 24px;
-    display: flex;
-    align-items: center;
-    
 }
 
 ul{
     list-style-type: none;
-    display: flex;
     gap: 16px;
     font-size: 18px;
+    display: flex;
 }
 
 a{
@@ -41,6 +37,7 @@ a{
 
 .footer
 {
+    background-color: #1f2937;
     font-size: 18px;
     color: white;
     display: flex;
@@ -49,7 +46,7 @@ a{
     padding: 25px;
 }
 
-.body{
-    display: flex;
-    flex: 1;
+.part1{
+    background-color: #1f2937;
+
 }
