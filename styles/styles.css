@@ -152,3 +152,32 @@ button:hover{
     font-weight: bold;
     text-align: right;
 }
+.cta {
+    width: 75%;
+    color: #e5e5e5;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 3rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.cta p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cta button {
+    font-size: 12px;
+    font-weight: 600;
+    border: 2.5px solid #e5e5e5;
+    cursor: pointer;
+}
